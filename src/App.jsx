@@ -1,36 +1,32 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './App.css'
 import StickyBox from "react-sticky-box";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavTab from './components/NavTab';
+import { Avatar, Box, CardHeader, Chip, Divider } from '@mui/material';
+import Sidebar from './components/Sidebar';
 
 function App() {
 
   return (
     <>
-      <Container fluid>
+      <Container style={{ display: "flex", alignItems: 'flex-start' }} >
+        <Sidebar />
 
-        <StickyBox offsetTop={20} offsetBottom={20} >
-        <Row className="justify-content-md-center">
-          <Col xs lg="2">
-            <div className="header">
-            </div>
-          </Col>
+        <Box
+          border={1}
+          borderColor={"#101010"}
+          backgroundColor={'#1e1e1f'}
+          marginLeft={1}
+          width={'80%'}
+          borderRadius={'10px'}
+          padding={2}
+          alignItems={'center'}
+          justifyContent={"center"}
+        >
 
-          <Col md="auto">
-
-          </Col>
-        </Row>
-
-
-
-        </StickyBox>
-        <Container >
           <NavTab />
-        </Container>
-
-
-
+        </Box>
       </Container>
     </>
   )

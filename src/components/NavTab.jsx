@@ -6,7 +6,7 @@ import Resume from "./Resume";
 export default function NavTab() {
   return (
     <>
-      <Tabs variant="pills">
+      <Tabs variant="" style={{ width: '300px', margin:'auto', marginRight: 0 }}>
         <Tab eventKey="about" title="About">
           <About />
         </Tab>
