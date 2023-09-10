@@ -19,7 +19,7 @@ export default function Sidebar() {
           borderColor={"#ccc"}
           backgroundColor={'#1e1e1f'}
         >
-          <Avatar alt='Display picture' style={{ height: '150px', width: '150px', borderRadius: '15px' }} src="src/avatar.jpeg" />
+          <Avatar alt='Display picture' style={{ height: '150px', width: '150px', borderRadius: '15px' }} src="./src/avatar.jpeg" />
           <CardHeader title='Charlton Dias' style={{ color: 'white' }} />
 
           <Chip variant="outlined" label="Software Developer" style={{ color: 'white' }} />
