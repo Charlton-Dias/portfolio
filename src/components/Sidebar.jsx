@@ -20,25 +20,25 @@ export default function Sidebar() {
           backgroundColor={'#1e1e1f'}
         >
           <Avatar alt='Display picture' style={{ height: '150px', width: '150px', borderRadius: '15px' }} src="src/avatar.jpeg" />
-          <CardHeader title='Charlton Dias' />
+          <CardHeader title='Charlton Dias' style={{ color: 'white' }} />
 
-          <Chip variant="outlined" label="Software Developer" />
+          <Chip variant="outlined" label="Software Developer" style={{ color: 'white' }} />
           <hr />
 
-          <Container style={{ display: 'flex', textAlign: 'left', flexDirection: 'column', alignItems: 'flex-start', alignContent: 'start', justifyContent: 'start' }}  >
+          <Container style={{ display: 'flex', textAlign: 'left', flexDirection: 'column', color: 'white' }}  >
             <Col style={{ flex: 1, marginBottom: '10px' }}>
               <AiFillGithub size={24} />
-              <Link underline="none" href="https://github.com/Charlton-Dias"> github.com/Charlton-Dias</Link>
+              <Link underline="none" color='none' href="https://github.com/Charlton-Dias"> github.com/Charlton-Dias</Link>
             </Col>
 
             <Col style={{ marginBottom: '10px' }}>
               <AiFillLinkedin size={24} />
-              <Link underline="none" href="https://in.linkedin.com/in/charlton-dias"> linkedin.com/in/charlton-dias</Link>
+              <Link underline="none" color='none' href="https://in.linkedin.com/in/charlton-dias"> linkedin.com/in/charlton-dias</Link>
             </Col>
 
             <Col style={{ marginBottom: '10px', alignItems: 'flex-start' }}>
               <AiOutlineMail size={24} />
-              <Link underline="none" href="mailto:charltondias29@gmail.com"> charltondias29@gmail.com</Link>
+              <Link underline="none" color='none' href="mailto:charltondias29@gmail.com"> charltondias29@gmail.com</Link>
             </Col>
             <Col style={{ marginBottom: '10px' }}>
               <BiCurrentLocation size={24} />
