@@ -1,5 +1,5 @@
-import { Avatar, Box, CardHeader, Chip, Icon, Link, ListItemIcon } from "@mui/material";
-import { Col, Container, Row } from "react-bootstrap";
+import { Avatar, Box, CardHeader, Chip, Link } from "@mui/material";
+import { Col, Container } from "react-bootstrap";
 import StickyBox from "react-sticky-box";
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 import { BiCurrentLocation } from "react-icons/bi";
@@ -16,7 +16,7 @@ export default function Sidebar() {
           padding={2}
           alignItems={'center'}
           justifyContent={"center"}
-          borderColor={"#101010"}
+          borderColor={"#ccc"}
           backgroundColor={'#1e1e1f'}
         >
           <Avatar alt='Display picture' style={{ height: '150px', width: '150px', borderRadius: '15px' }} src="src/avatar.jpeg" />

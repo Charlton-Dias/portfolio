@@ -1,32 +1,22 @@
 {
-  "education": [
+  "work": [
     {
-      "title":" Post Graduation ",
-      "location": "Goa University, Panjim ",
-      "description": "Master of Computer Application ",
-      "from": "08/2022 ",
-      "to": "Present"
+      "description":"UI Developer",
+      "institution": "Prelanté, Fatorda, Goa",
+      "startDate": "08/2022 ",
+      "endDate": "Present"
     },
     {
-      "title":"Graduation ",
-      "location": "Rosary College of Commerce & Arts, Navelim",
-      "description": "Bachelors of Computer Application",
-      "from": "08/2022 ",
-      "to": "Present"
+      "description":"JavaScript Developer ",
+      "institution": "Heliverse, Gurugram, Haryana",
+      "startDate": "08/2022 ",
+      "endDate": "Present"
     },
     {
-      "title":"HSSC",
-      "location": "Rosary Higher Secondary School, Navelim",
-      "description": "Computer Techniques (Vocational)",
-      "from": "06/2016 ",
-      "to": "04/2018 "
-    },
-    {
-      "title":"SSC",
-      "location": "St. Joseph High School, Aquem ",
-      "description": "Goa Board",
-      "from": "",
-      "to": "04/2016 "
+      "description":"Internship (Tester)",
+      "institution": "Spintly, Fatorda, Goa",
+      "startDate": "11/2019 ",
+      "endDate": "11/2019 "
     }
   ]
 }

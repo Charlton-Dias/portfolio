@@ -3,8 +3,6 @@ import { Button, ButtonGroup, Card } from "react-bootstrap";
 export default function Projects() {
   return (
     <>
-      <h1>Projects</h1>
-
       <Card style={{ height: '400px', width: '250px' }}>
         <Card.Img variant="top" src="https://via.placeholder.com/150" />
         <Card.Body>
