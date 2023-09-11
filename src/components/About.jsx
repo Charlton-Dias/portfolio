@@ -10,11 +10,8 @@ export default function About() {
     "boltjs", 
     "c", 
     "git", 
-    "vscode",  
     "sql", 
     "mongodb", 
-    "heroku", 
-    "netlify", 
     "bootstrap"
   ];
 
