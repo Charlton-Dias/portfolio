@@ -35,7 +35,7 @@ function SidebarCard({ mobile }) {
         backgroundColor={'#1e1e1f'}
         marginBottom={mobile ? 2 : 0}
       >
-        <Avatar alt='Display picture' style={{ height: mobile ? '100%' : '150px', width: mobile ? '100%' : '150px', borderRadius: '15px' }} src="./src/avatar.jpeg" />
+        <Avatar alt='Display picture' style={{ height: mobile ? '100%' : '150px', width: mobile ? '100%' : '150px', borderRadius: '15px' }} src="./avatar.jpeg" />
         <CardHeader title='Charlton Dias' style={{ color: 'white' }} />
 
         <Chip variant="outlined" label="Software Developer" style={{ color: 'white' }} />
